@@ -69,3 +69,20 @@ body {
   padding: 6px;
   margin-bottom: 12px;
 }
+
+.primary-button {
+  background-color: var(--Hospital-green);
+  border-radius: 8px;
+  border: none;
+  color: var(--White);
+  width: 100%;
+  cursor: pointer;
+  font-size: var(--md);
+  font-weight: bold;
+  height: 58px;
+}
+
+.login-button {
+  margin-top: 14px;
+  margin-bottom: 30px;
+}
