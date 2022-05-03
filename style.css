@@ -93,6 +93,9 @@ body {
   }
 }
 /*estilos para el archivo email*/
+.form-email {
+  justify-items: center;
+}
 
 .email-image {
   width: 132px;
@@ -102,8 +105,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 24px;
 }
 
 .email-image img {
   width: 80px;
+}
+
+.resend {
+  font-size: var(--sm);
+}
+.resend span {
+  color: var(--Very-light-pink);
+}
+.resend a {
+  color: var(--Hospital-green);
+  text-decoration: none;
 }
