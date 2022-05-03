@@ -92,3 +92,18 @@ body {
     display: block;
   }
 }
+/*estilos para el archivo email*/
+
+.email-image {
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+  background-color: var(--Text-input-field);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-image img {
+  width: 80px;
+}
