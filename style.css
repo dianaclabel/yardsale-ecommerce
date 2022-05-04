@@ -67,7 +67,7 @@ body {
   height: 30px;
   font-size: var(--md);
   padding: 6px;
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
 
 .primary-button {
@@ -87,11 +87,6 @@ body {
   margin-bottom: 30px;
 }
 
-@media (max-width: 640px) {
-  .logo {
-    display: block;
-  }
-}
 /*estilos para el archivo email*/
 .form-email {
   justify-items: center;
@@ -121,4 +116,34 @@ body {
 .resend a {
   color: var(--Hospital-green);
   text-decoration: none;
+}
+
+/*agregando estilos a login*/
+.form a {
+  color: var(--Hospital-green);
+  font-size: var(--sm);
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 52px;
+}
+
+.secondary-button {
+  background-color: var(--White);
+  border-radius: 8px;
+  border: 1px solid var(--Hospital-green);
+  color: var(--Hospital-green);
+  width: 100%;
+  cursor: pointer;
+  font-size: var(--md);
+  font-weight: bold;
+  height: 58px;
+}
+
+@media (max-width: 640px) {
+  .logo {
+    display: block;
+  }
+  .signup-button {
+    margin-top: 150px;
+  }
 }
