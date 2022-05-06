@@ -149,6 +149,13 @@ body {
   flex-direction: column;
 }
 
+/* agregando estilos al archivo  my_account*/
+.value {
+  color: var(--Very-light-pink);
+  font-size: var(--md);
+  margin: 4px 0 32px 0;
+}
+
 @media (max-width: 640px) {
   .logo {
     display: block;
