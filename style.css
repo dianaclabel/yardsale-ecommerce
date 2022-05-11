@@ -235,6 +235,51 @@ body {
   margin-bottom: 20px;
   display: inline-block;
 }
+/*agregando estilos al archivo menu2*/
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 24px;
+  height: 90vh;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  color: var(--Black);
+  font-weight: bold;
+}
+
+.mobile-menu ul {
+  padding: 0;
+
+  list-style: none;
+}
+
+.categories li:nth-child(7) {
+  margin-bottom: 60px;
+}
+
+.mobile-menu ul:nth-child(1) {
+  border-bottom: 1px solid var(--Very-light-pink);
+}
+.mobile-menu ul li {
+  margin-bottom: 30px;
+}
+
+.mobile-menu .email--items {
+  margin-bottom: 10px;
+}
+
+.mobile-menu .email {
+  font-size: var(--sm);
+  font-weight: 300;
+}
+
+.mobile-menu .sign-out {
+  font-size: var(--sm);
+  color: var(--Hospital-green);
+}
 
 @media (max-width: 640px) {
   .logo {
