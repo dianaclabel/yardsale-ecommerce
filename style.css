@@ -369,6 +369,77 @@ body {
   margin-bottom: 12px;
 }
 
+/*estilos para el navbar*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+.menu {
+  display: none;
+}
+
+.logo-navbar {
+  width: 100px;
+}
+
+.navbar-left ul,
+.navbar-right ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  height: 60px;
+}
+.navbar-left {
+  display: flex;
+}
+
+.navbar-left ul {
+  margin-left: 12px;
+}
+
+.navbar-left ul li a,
+.navbar-left ul li a {
+  text-decoration: none;
+  color: var(--Very-light-pink);
+  border: 1px solid var(--White);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.navbar-left ul li a:hover,
+.navbar-left ul li a:hover {
+  border: 1px solid var(--Hospital-green);
+  color: var(--Hospital-green);
+}
+.navbar-email {
+  color: var(--Very-light-pink);
+  font-size: var(--sm);
+}
+
+.navbar-shopping-cart {
+  position: relative;
+}
+
+.navbar-shopping-cart div {
+  width: 8px;
+  height: 8px;
+  background-color: var(--Hospital-green);
+  border-radius: 50%;
+  font-size: var(--sm);
+  font-weight: bold;
+  position: absolute;
+  top: -6px;
+  right: -3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @media (max-width: 640px) {
   .logo {
     display: block;
