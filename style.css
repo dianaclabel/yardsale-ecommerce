@@ -313,19 +313,23 @@ body {
   padding: 0 24px;
 }
 
-.order p:nth-child(1) {
+.order p:nth-child(1),
+.orders p:nth-child(1) {
   display: flex;
   flex-direction: column;
 }
-.order p span:nth-child(1) {
+.order p span:nth-child(1),
+.orders p span:nth-child(1) {
   font-size: var(--md);
   font-weight: bold;
 }
-.order p span:nth-child(2) {
+.order p span:nth-child(2),
+.orders p span:nth-child(2) {
   font-size: var(--sm);
   color: var(--Very-light-pink);
 }
-.order p:nth-child(2) {
+.order p:nth-child(2),
+.orders p:nth-child(2) {
   text-align: end;
   font-weight: 700;
 }
@@ -353,6 +357,16 @@ body {
 
 .shopping-cart figure {
   margin: 0;
+}
+/*estilos para el archivomy-orders*/
+
+.orders {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 16px;
+  align-items: center;
+
+  margin-bottom: 12px;
 }
 
 @media (max-width: 640px) {
