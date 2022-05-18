@@ -537,6 +537,25 @@ nav {
   align-items: center;
   justify-content: center;
 }
+/* estilos de shopping cart*/
+.product-detail-container {
+  padding: 24px;
+  box-sizing: border-box;
+}
+.title-shopping-cart {
+  font-size: var(--lg);
+  font-weight: bold;
+}
+
+.title-container {
+  display: flex;
+}
+
+.title-container img {
+  display: flex;
+  transform: rotate(180deg);
+  margin-right: 14px;
+}
 
 @media (max-width: 640px) {
   .logo {
